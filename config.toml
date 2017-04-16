@@ -1,0 +1,4 @@
+baseURL = "http://ajaykavuri.com"
+languageCode = "en-us"
+title = "Ajay Kavuri"
+publishDir = "docs"
