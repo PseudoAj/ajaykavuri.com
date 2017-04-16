@@ -1,4 +1,61 @@
+#title           :config.toml
+#description     :The mai configuration file
+#author		       :Ajay Krishna Teja Kavuri
+#date            :04162017
+#version         :0.1
+#==============================================================================
+
+# Base Config
+
 baseURL = "http://ajaykavuri.com"
 languageCode = "en-us"
 title = "Ajay Kavuri"
 publishDir = "docs"
+theme = "hugo-sustain"
+
+#==============================================================================
+
+# Plugins
+
+disqusShortname = "pseudoaj"
+googleAnalytics = "UA-97412052-1"
+
+#==============================================================================
+
+# Additional Config
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Ajay Kavuri"
+  description = "Developer. Crawler. Happy Soul."
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "pseudoaj"
+  Email         = "ajaykrishnateja@gmail.com"
+  Twitter       = "pseudoaj"
+  LinkedIn      = "pseudoaj"
+  Stackoverflow = "pseudoaj"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
+[[menu.main]]
+  name = "projects"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"
