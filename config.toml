@@ -48,7 +48,7 @@ googleAnalytics = "UA-97412052-1"
   name = "blog"
   weight = 100
   identifier = "blog"
-  url = "/blog/"
+  url = "http://www.pseudoaj.com/"
 [[menu.main]]
   name = "projects"
   identifier = "projects"
