@@ -7,7 +7,7 @@
 
 # Base Config
 
-baseURL = "http://ajaykavuri.com//"
+baseURL = "http://ajaykavuri.com/"
 languageCode = "en-us"
 title = "Ajay Kavuri"
 publishDir = "docs"
