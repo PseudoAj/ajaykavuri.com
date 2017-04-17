@@ -87,6 +87,12 @@ html, body {
   max-width: 800px;
   text-align: center;
 }
+
+.header-container{
+  font-size: 16px;
+  font-weight: 800;
+}
+
 .container .text-muted {
   margin: 20px 0;
 }
@@ -94,7 +100,7 @@ html, body {
   color: #2196F3;
 }
 .container a:hover {
-  color: ##2196F4;
+  color: #2196F4;
 }
 .img-responsive {
  display: block;
@@ -115,10 +121,10 @@ html, body {
   font-size: 15px;
 }
 .panel-default h4 a, h5 a {
-  color: ##2196F3;
+  color: #2196F3;
 }
 .panel-default h4 a:hover, h5 a:hover {
-  color: ##2196F4;
+  color: #2196F4;
 }
 .panel{
   border-style: none;
@@ -142,14 +148,14 @@ html, body {
   text-align: center;
 }
 .social-links li a {
-  font-size: 20px;
-  color: #000;
+  font-size: 36px;
+  color: #2196F3;
   padding: 10px;
   padding-bottom: 4px;
   transition: all .4s ease;
 }
 .social-links li a:hover {
-  color: #000;
+  color: #2196F4;
 }
 .avatar {
   padding-top: 5%;
